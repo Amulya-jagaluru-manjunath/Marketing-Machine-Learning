@@ -71,7 +71,7 @@ ml_assignment/
 
 ---
 
-## Expected Runtime (Mac Mini M4, 24 GB RAM)
+## Expected Runtime (24 GB RAM)
 
 | Notebook | Estimated Time |
 |---|---|
@@ -88,6 +88,5 @@ ml_assignment/
 ## Notes
 - All notebooks use `matplotlib.use('Agg')` — no display required; PDFs are saved directly.
 - SMOTE is applied to training data only (never test data) to handle the class imbalance.
-- XGBoost uses `tree_method='hist'` for fast training on Apple Silicon.
 - For the dataset column `is_fraud` is the binary target (0=legitimate, 1=fraud).
 - Run notebooks independently — each one reloads and preprocesses the raw CSV from scratch.
